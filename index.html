@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aggressively Peaceful</title>
+<meta name="description" content="An open record of Region Skåne's 2026 rush-hour ban on bikes on trains: documents, press, public-records requests and analysis.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a public case file. One column of reading width, a route-map timeline as the single bold element,
+   tables for documents, status pills for requests. Colours borrow the purple of Skåne's local trains. */
+:root{
+  --bg:#f5f4f8;
+  --surface:#ffffff;
+  --ink:#1c1724;
+  --muted:#5d566b;
+  --line:#dcd7e5;
+  --accent:#6a2c8f;
+  --accent-soft:#ede4f4;
+  --ok:#1f7a4d; --ok-soft:#e1f2e8;
+  --wait:#8a5a00; --wait-soft:#fbf0d9;
+  --stop:#a3262a; --stop-soft:#f8e3e3;
+  --display:"Barlow Condensed","Arial Narrow",Arial,sans-serif;
+  --body:"Atkinson Hyperlegible",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,"SFMono-Regular",Menlo,Consolas,monospace;
+  --measure:68ch;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#141019; --surface:#1d1825; --ink:#ece8f2; --muted:#a79fb5; --line:#332c3f;
+    --accent:#c39be6; --accent-soft:#2c2139;
+    --ok:#6fd19e; --ok-soft:#173326; --wait:#e8b65a; --wait-soft:#3a2c12; --stop:#f08a8d; --stop-soft:#3d1c1e;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#141019; --surface:#1d1825; --ink:#ece8f2; --muted:#a79fb5; --line:#332c3f;
+  --accent:#c39be6; --accent-soft:#2c2139;
+  --ok:#6fd19e; --ok-soft:#173326; --wait:#e8b65a; --wait-soft:#3a2c12; --stop:#f08a8d; --stop-soft:#3d1c1e;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:1.0625rem;line-height:1.6;margin:0}
+a{color:var(--accent);text-underline-offset:.18em;text-decoration-thickness:1px}
+a:hover{text-decoration-thickness:2px}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
+h1,h2,h3{font-family:var(--display);font-weight:700;line-height:1.05;text-wrap:balance;margin:0}
+h2{font-size:clamp(1.9rem,4vw,2.5rem);letter-spacing:.005em}
+h3{font-size:1.35rem;font-weight:600}
+p{margin:0}
+.mono{font-family:var(--mono);font-size:.86em;font-variant-numeric:tabular-nums}
+.eyebrow{font-family:var(--mono);font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+
+/* header */
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--line)}
+.top-inner{max-width:68rem;margin:0 auto;padding-block:.7rem;padding-inline:clamp(16px,4vw,32px);display:flex;flex-wrap:wrap;align-items:baseline;gap:.4rem 1.6rem}
+.brand{font-family:var(--display);font-weight:700;font-size:1.35rem;letter-spacing:.02em;text-transform:uppercase;color:var(--ink);text-decoration:none}
+.brand span{color:var(--accent)}
+.nav{display:flex;flex-wrap:wrap;gap:.2rem 1.1rem;font-size:.95rem}
+.nav a{color:var(--muted);text-decoration:none}
+.nav a:hover{color:var(--ink)}
+
+.wrap{max-width:68rem;margin:0 auto;padding-inline:clamp(16px,4vw,32px)}
+section{padding-block:clamp(2.5rem,6vw,4rem);border-top:1px solid var(--line);display:grid;gap:1.4rem}
+section:first-of-type{border-top:0}
+.lede{max-width:var(--measure);color:var(--muted)}
+
+/* preview banner */
+.preview{background:var(--wait-soft);color:var(--wait);font-size:.9rem}
+.preview .wrap{padding-block:.55rem}
+
+/* hero */
+.hero{padding-block:clamp(2.5rem,7vw,5rem) clamp(2rem,5vw,3rem);display:grid;gap:1.4rem}
+.hero h1{font-size:clamp(2.6rem,7.5vw,5rem);max-width:16ch;letter-spacing:-.005em}
+.hero h1 em{font-style:normal;color:var(--accent)}
+.hero .lede{font-size:1.15rem;color:var(--ink)}
+.status{display:grid;grid-template-columns:repeat(auto-fit,minmax(13rem,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:6px;overflow:hidden;max-width:56rem}
+.status div{background:var(--surface);padding:.85rem 1rem;display:grid;gap:.15rem}
+.status b{font-family:var(--display);font-size:1.45rem;font-weight:600;line-height:1.1}
+
+/* findings */
+.findings{display:grid;gap:1.1rem;max-width:var(--measure);padding:0;margin:0;list-style:none;counter-reset:f}
+.findings li{display:grid;grid-template-columns:2.2rem 1fr;gap:.2rem .6rem}
+.findings li::before{counter-increment:f;content:counter(f);font-family:var(--display);font-weight:700;font-size:1.5rem;color:var(--accent);line-height:1.2}
+.findings strong{display:block}
+.findings .src{font-size:.88rem;color:var(--muted)}
+
+/* route map */
+.route{position:relative;overflow-x:auto;padding-block:.5rem 1rem}
+.route ol{list-style:none;margin:0;padding:0;display:grid;grid-auto-flow:column;grid-auto-columns:minmax(10.5rem,1fr);min-width:min-content;position:relative}
+.route ol::before{content:"";position:absolute;left:0;right:0;top:2.15rem;height:6px;background:var(--accent);border-radius:3px}
+.stop{position:relative;padding-top:3.4rem;padding-right:1rem;display:grid;gap:.25rem;align-content:start}
+.stop::before{content:"";position:absolute;top:1.6rem;left:0;width:18px;height:18px;border-radius:50%;background:var(--surface);border:4px solid var(--accent)}
+.stop.key::before{background:var(--accent)}
+.stop.next::before{border-style:dashed;background:var(--bg)}
+.stop time{font-family:var(--mono);font-size:.8rem;color:var(--muted);position:absolute;top:0;left:0}
+.stop strong{font-family:var(--display);font-size:1.15rem;font-weight:600;line-height:1.15}
+.stop p{font-size:.92rem;color:var(--muted)}
+.hint{font-size:.85rem;color:var(--muted)}
+@media (max-width:640px){
+  .route ol{grid-auto-flow:row;min-width:0}
+  .route ol::before{left:7px;right:auto;top:0;bottom:0;width:6px;height:auto}
+  .stop{padding:0 0 1.3rem 2.2rem}
+  .stop::before{top:.15rem;left:0}
+  .stop time{position:static}
+  .hint{display:none}
+}
+
+/* tables */
+.table-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:6px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-size:.95rem}
+th,td{text-align:left;padding:.7rem .9rem;border-bottom:1px solid var(--line);vertical-align:top}
+tr:last-child td{border-bottom:0}
+th{font-family:var(--mono);font-size:.74rem;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);font-weight:500;background:var(--bg)}
+td.date,td.case{font-family:var(--mono);font-size:.85rem;white-space:nowrap;font-variant-numeric:tabular-nums}
+td .note{display:block;color:var(--muted);font-size:.88rem;margin-top:.15rem}
+
+/* requests */
+.reqs{display:grid;grid-template-columns:repeat(auto-fill,minmax(19rem,1fr));gap:1rem}
+.req{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:1rem 1.1rem;display:grid;gap:.5rem;align-content:start}
+.req header{display:flex;justify-content:space-between;gap:.75rem;align-items:baseline}
+.req h3{font-size:1.2rem}
+.req p{font-size:.93rem;color:var(--muted)}
+.pill{font-family:var(--mono);font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;padding:.2rem .5rem;border-radius:999px;white-space:nowrap}
+.pill.ready{background:var(--accent-soft);color:var(--accent)}
+.pill.wait{background:var(--wait-soft);color:var(--wait)}
+.pill.ok{background:var(--ok-soft);color:var(--ok)}
+.pill.no{background:var(--stop-soft);color:var(--stop)}
+.legend{display:flex;flex-wrap:wrap;gap:.5rem 1rem;font-size:.88rem;color:var(--muted);align-items:center}
+
+/* press */
+.press{display:grid;gap:0;border-top:1px solid var(--line);max-width:52rem}
+.press a{display:grid;grid-template-columns:7rem 1fr;gap:.2rem 1rem;padding:.8rem 0;border-bottom:1px solid var(--line);text-decoration:none;color:var(--ink)}
+.press a:hover .h{text-decoration:underline;text-decoration-color:var(--accent)}
+.press time{font-family:var(--mono);font-size:.82rem;color:var(--muted);padding-top:.15rem}
+.press .o{font-size:.85rem;color:var(--muted)}
+.press .h{font-weight:700}
+@media (max-width:520px){.press a{grid-template-columns:1fr}}
+
+/* method */
+.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(16rem,1fr));gap:1.5rem 2.5rem}
+.cols > div{display:grid;gap:.5rem;align-content:start;min-width:0}
+.cols ul{margin:0;padding-left:1.1rem;display:grid;gap:.3rem;color:var(--muted)}
+
+footer{border-top:1px solid var(--line);padding-block:2rem 3rem;color:var(--muted);font-size:.9rem}
+footer .wrap{display:grid;gap:.4rem}
+@media (prefers-reduced-motion:no-preference){a{transition:color .15s}}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="top-inner">
+    <a class="brand" href="#top">Aggressively <span>Peaceful</span></a>
+    <nav class="nav" aria-label="Sections">
+      <a href="#findings">Findings</a>
+      <a href="#route">Timeline</a>
+      <a href="#documents">Documents</a>
+      <a href="#requests">Requests</a>
+      <a href="#press">Press</a>
+      <a href="#method">How we work</a>
+      <a href="https://github.com/dcuartielles/aggressively-peaceful">Repository</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap" id="top">
+  <div class="hero">
+    <p class="eyebrow">Region Skåne · Kollektivtrafiknämnden · Ärende 2022-POL000109</p>
+    <h1>A case opened to give bikes <em>more room</em> on trains ended in a ban.</h1>
+    <p class="lede">From 1 November 2026, ordinary bikes may not board Pågatåg or Öresundståg in Skåne on weekday mornings and afternoons. We are documenting how that decision was made, what it was based on, and what the public record shows. Every claim here links to its source.</p>
+    <div class="status" role="list">
+      <div role="listitem"><span class="eyebrow">Decided</span><b>1 Oct 2026</b><span class="mono">KTN, item 6</span></div>
+      <div role="listitem"><span class="eyebrow">Takes effect</span><b>1 Nov 2026</b><span class="mono">06–08 · 15:30–17:30</span></div>
+      <div role="listitem"><span class="eyebrow">Minutes</span><b>Not published</b><span class="mono">checked 1 Oct, 17:58</span></div>
+      <div role="listitem"><span class="eyebrow">Records requests</span><b>8 ready</b><span class="mono">0 sent · 0 answered</span></div>
+    </div>
+  </div>
+
+  <section id="findings" aria-labelledby="findings-h">
+    <h2 id="findings-h">What we have found so far</h2>
+    <ol class="findings">
+      <li><div><strong>The ban was filed under a case meant to expand bike access.</strong>
+        In April 2022 the committee asked for an investigation into how to increase access for bikes on Pågatåg. The 2026 ban carries the same case number.
+        <span class="src"><a href="https://www.skane.se/namndshandlingar/7312626/">Minutes 7 April 2022, § 27</a> · <a href="https://www.skane.se/namndshandlingar/96656721/">Proposal 24 Sep 2026</a></span></div></li>
+      <li><div><strong>The promised investigation was a three-slide deck.</strong>
+        It arrived late, in October 2022, described problems as "perceived", and contained one number. It also said bikes did not compete with places for disabled passengers, a reason the 2026 proposal gives for the ban.
+        <span class="src"><a href="https://www.skane.se/namndshandlingar/8191747/">Skånetrafiken, "Cykel på tåg", 6 Oct 2022</a></span></div></li>
+      <li><div><strong>The 2026 decision rests on one document.</strong>
+        The case file lists only the chair's proposal. It contains no passenger counts or incident figures, and states that legal review and union consultation were not considered necessary.
+        <span class="src"><a href="https://www.skane.se/namndshandlingar/96656721/">Proposal 24 Sep 2026</a></span></div></li>
+      <li><div><strong>Partner regions are told after the fact.</strong>
+        Öresundståg is run jointly by six authorities. The proposal sends the decision to the other regions and Öresundståg AB once it is made; the cooperation agreement asks Skåne to inform the joint company before decisions that affect the whole system.
+        <span class="src"><a href="https://politik.regionhalland.se/welcome-sv/namnder-styrelser/regionfullmaktige/mote-2023-04-26/agenda/forslag-till-nytt-samverkansavtal-for-oresundstagstrafikenpdf?downloadMode=download">Samverkansavtal, clause 2.5.2</a></span></div></li>
+      <li><div><strong>The crowding was predicted when ticket prices were halved.</strong>
+        In May an opposition member warned that a temporary price cut would bring overcrowding without new trains. In August Skånetrafiken acknowledged peak-hour crowding. In September the chair tied continued demand to the cheaper tickets.
+        <span class="src"><a href="https://www.svt.se/nyheter/lokalt/skane/priset-pa-manadskort-halveras-i-skane">SVT 26 May</a> · <a href="https://www.svt.se/nyheter/lokalt/skane/halverat-pris-pa-manadskort-far-wiktoria-att-pendla-till-jobbet">SVT 21 Aug</a> · <a href="https://www.svt.se/nyheter/lokalt/skane/cyklar-kan-stoppas-pa-tag-under-rusningstid">SVT 25 Sep</a></span></div></li>
+    </ol>
+  </section>
+
+  <section id="route" aria-labelledby="route-h">
+    <h2 id="route-h">The route of case 2022-POL000109</h2>
+    <p class="lede">Each stop is a dated document or event. Filled stops are decisions; the dashed stop is still ahead.</p>
+    <div class="route" tabindex="0" aria-label="Timeline, scrolls sideways on wide screens">
+      <ol>
+        <li class="stop key"><time datetime="2022-04-07">7 Apr 2022</time><strong>Investigate more bike access</strong><p>Committee assigns the traffic director; report due September.</p></li>
+        <li class="stop"><time datetime="2022-09-30">30 Sep 2022</time><strong>Deadline passes</strong><p>Committee meets. No bike item.</p></li>
+        <li class="stop"><time datetime="2022-10-06">6 Oct 2022</time><strong>Three-slide deck</strong><p>No data. Rush-hour limits floated for the first time.</p></li>
+        <li class="stop key"><time datetime="2022-11-11">11 Nov 2022</time><strong>"Review the rules"</strong><p>New case 2022-POL000362. Report due early 2023. None found.</p></li>
+        <li class="stop"><time datetime="2026-07-01">1 Jul 2026</time><strong>Monthly pass halved</strong><p>State-funded until 31 December. Travel rises.</p></li>
+        <li class="stop"><time datetime="2026-09-24">24 Sep 2026</time><strong>Ban proposed</strong><p>Chair's proposal, filed under the 2022 case.</p></li>
+        <li class="stop key"><time datetime="2026-10-01">1 Oct 2026</time><strong>Ban adopted</strong><p>Hours narrowed at the meeting. Opposition against.</p></li>
+        <li class="stop next"><time datetime="2026-11-01">1 Nov 2026</time><strong>Ban takes effect</strong><p>Appeal window: three weeks from the posting of the minutes.</p></li>
+      </ol>
+    </div>
+    <p class="hint">Scroll sideways to see the whole route.</p>
+  </section>
+
+  <section id="documents" aria-labelledby="docs-h">
+    <h2 id="docs-h">Documents</h2>
+    <p class="lede">Official documents we have read, newest first. We link to the originals on the authorities' own sites and publish our transcriptions next to them.</p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th scope="col">Date</th><th scope="col">Document</th><th scope="col">Case</th><th scope="col">Our copy</th></tr></thead>
+        <tbody>
+          <tr><td class="date">2026-10-01</td><td>Minutes, item 6: ban on bikes at peak hours<span class="note">Not yet published. Checked hourly.</span></td><td class="case">2022-POL000109</td><td>—</td></tr>
+          <tr><td class="date">2026-09-24</td><td><a href="https://www.skane.se/namndshandlingar/96656721/">Chair's proposal: Förbud mot cyklar på tåg under högtrafik</a><span class="note">The only document in the case file.</span></td><td class="case">2022-POL000109</td><td><a href="https://github.com/dcuartielles/aggressively-peaceful/blob/main/inputs/political_decisions/transcripts/2026-09-24_KTN_beslutsforslag_cykelforbud.md">Transcript</a></td></tr>
+          <tr><td class="date">2022-11-11</td><td><a href="https://www.skane.se/namndshandlingar/8183143/">Proposal: Regelverk för medhavd cykel ombord</a><span class="note">Report due Q1 2023; not found.</span></td><td class="case">2022-POL000362</td><td><a href="https://github.com/dcuartielles/aggressively-peaceful/blob/main/inputs/political_decisions/transcripts/2022_KTN_cykel-pa-tag_aterrapport.md">Transcript</a></td></tr>
+          <tr><td class="date">2022-10-06</td><td><a href="https://www.skane.se/namndshandlingar/8191747/">Skånetrafiken slide deck: Cykel på tåg</a><span class="note">The only report-back on the 2022 assignment.</span></td><td class="case">2022-POL000362</td><td><a href="https://github.com/dcuartielles/aggressively-peaceful/blob/main/inputs/political_decisions/transcripts/2022_KTN_cykel-pa-tag_aterrapport.md">Transcript</a></td></tr>
+          <tr><td class="date">2022-09-30</td><td><a href="https://www.skane.se/namndshandlingar/8277225/">Minutes §§ 52–63</a><span class="note">No bike item; deadline missed.</span></td><td class="case">—</td><td>—</td></tr>
+          <tr><td class="date">2022-04-07</td><td><a href="https://www.skane.se/namndshandlingar/7312626/">Minutes § 27: Cykel på tåg</a><span class="note">Assignment to increase bike access.</span></td><td class="case">2022-POL000109</td><td><a href="https://github.com/dcuartielles/aggressively-peaceful/blob/main/inputs/political_decisions/transcripts/2022-04-07_KTN_cykel-pa-tag.md">Transcript</a></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="requests" aria-labelledby="req-h">
+    <h2 id="req-h">Our public-records requests</h2>
+    <p class="lede">Swedish law gives everyone the right to read public documents. We publish each request in full and every answer with names removed. A reply saying a document does not exist is also an answer. <a href="https://github.com/dcuartielles/aggressively-peaceful/tree/main/outputs/requests">Read the request texts</a>.</p>
+    <div class="legend" aria-label="Status key"><span class="pill ready">Ready</span><span class="pill wait">Sent, waiting</span><span class="pill ok">Answered</span><span class="pill no">Refused</span></div>
+    <div class="reqs">
+      <article class="req"><header><h3>Region Skåne: minutes and case files</h3><span class="pill ready">Ready</span></header><p>Minutes of 1 October, both case files from 2022, the missing 2023 report, and the basis for the proposal.</p></article>
+      <article class="req"><header><h3>Region Skåne: data and safety</h3><span class="pill ready">Ready</span></header><p>Incident reports, passenger counts, the "reports, videos and emails" cited by the chair, and correspondence with partners.</p></article>
+      <article class="req"><header><h3>Öresundståg AB</h3><span class="pill ready">Ready</span></header><p>Whether Skåne informed the jointly owned company before deciding, and its own incident and crowding data.</p></article>
+      <article class="req"><header><h3>Five partner regions</h3><span class="pill ready">Ready</span></header><p>Halland, Blekinge, Kronoberg, Kalmar län and Västra Götaland: anything they received from Skåne about the ban, and when.</p></article>
+    </div>
+  </section>
+
+  <section id="press" aria-labelledby="press-h">
+    <h2 id="press-h">In the press</h2>
+    <p class="lede">A selection. The full list of 46 items, back to 2016, is <a href="https://github.com/dcuartielles/aggressively-peaceful/blob/main/inputs/press/index.md">in the repository</a>.</p>
+    <div class="press">
+      <a href="https://www.svt.se/nyheter/lokalt/skane/beslut-idag-cyklar-stoppas-pa-skanska-tag-under-rusningstid"><time datetime="2026-10-01">2026-10-01</time><span><span class="h">Beslut idag: Cyklar stoppas på skånska tåg under rusningstid</span><br><span class="o">SVT Skåne</span></span></a>
+      <a href="https://skaneplus.se/cykelforbud-i-skanes-tagtrafik-under-rusningstid-hard-kritik-mot-nytt-beslut/"><time datetime="2026-10-01">2026-10-01</time><span><span class="h">Cykelförbud i Skånes tågtrafik under rusningstid – hård kritik</span><br><span class="o">Skåne Plus · staff union: 29 incidents in 2026, 6 at rush hour</span></span></a>
+      <a href="https://cykelframjandet.se/nyheter/2026/09/30/debatt-forbjud-inte-cyklar-pa-oresundstag-och-pagatag/"><time datetime="2026-09-30">2026-09-30</time><span><span class="h">Förbjud inte cyklar på Öresundståg och pågatåg</span><br><span class="o">Op-ed, Sydsvenskan, via Cykelfrämjandet</span></span></a>
+      <a href="https://www.svt.se/nyheter/lokalt/skane/cyklar-kan-stoppas-pa-tag-under-rusningstid"><time datetime="2026-09-25">2026-09-25</time><span><span class="h">Cyklar kan stoppas på tåg under rusningstid</span><br><span class="o">SVT Skåne</span></span></a>
+      <a href="https://www.svt.se/nyheter/lokalt/skane/halverat-pris-pa-manadskort-far-wiktoria-att-pendla-till-jobbet"><time datetime="2026-08-21">2026-08-21</time><span><span class="h">Halverat pris på månadskort får fler att pendla</span><br><span class="o">SVT Skåne · Skånetrafiken on peak crowding</span></span></a>
+      <a href="https://www.svt.se/nyheter/lokalt/skane/tagvardar-blir-hotade-nar-cyklister-avvisas-fran-pagatagen"><time datetime="2021-06-19">2021-06-19</time><span><span class="h">Tågvärdar hotas när de avvisar cyklister från Pågatågen</span><br><span class="o">SVT Skåne</span></span></a>
+    </div>
+  </section>
+
+  <section id="method" aria-labelledby="method-h">
+    <h2 id="method-h">How we work</h2>
+    <div class="cols">
+      <div><h3>Sources first</h3><p>Every statement links to a public document, a law or a published article. When we could not verify something, we say so.</p></div>
+      <div><h3>Names</h3><p>We name elected politicians acting in office. Civil servants, train staff, commuters and other private people are described by their role.</p></div>
+      <div><h3>What we do not publish</h3><ul><li>Email addresses and phone numbers</li><li>Names of people who answer our requests</li><li>Copies of original documents (we link to them)</li><li>Unverified tips and notes</li></ul></div>
+      <div><h3>The repository</h3><p>The site is built from plain text files in a <a href="https://github.com/dcuartielles/aggressively-peaceful">public Git repository</a>, so every change is dated and visible.</p></div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p><strong>Aggressively Peaceful</strong> · An open record of the 2026 bike ban on Skåne's trains.</p>
+    <p>A human-machine collaboration between Dr. David J. Cuartielles Ruiz and Claude Opus 5.5 (Anthropic). David sets the direction, makes the decisions and approves everything sent or published.</p>
+    <p>Our own material is licensed <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>. Public-authority documents and press material keep their own terms; see the <a href="https://github.com/dcuartielles/aggressively-peaceful#license">README</a>.</p>
+    <p>Last updated 1 October 2026. Not legal advice. <a href="https://github.com/dcuartielles/aggressively-peaceful">Source on GitHub</a>.</p>
+  </div>
+</footer>
+</body>
+</html>
