@@ -28,6 +28,7 @@ Sources: `inputs/press/index.md`, `inputs/political_decisions/index.md`.
 | 2026-10-01 | Seko klubb Pågatåg: 29 incidents in 2026, 6 at rush hour | Skåne Plus |
 | 2026-10-01 | Cykelfrämjandet petition passes ~2,000 signatures | Cykelfrämjandet |
 | 2026-10-01 16:15 | Minutes not yet published | skane.se |
+| 2026-10-01 evening | 8 public-records requests sent: Region Skåne (2), Öresundståg AB, Region Halland, Blekinge, Kronoberg, Kalmar län, Västra Götalandsregionen | `outputs/requests/` |
 | Posting of minutes + 3 weeks | Deadline for legality review (KL 13:5) | Kommunallagen |
 | 2026-11-01 | Ban takes effect | Beslutsförslag |
 | Q1 2027 | Administration reports back; proposal for summer 2027 | Beslutsförslag |
