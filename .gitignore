@@ -1,0 +1,35 @@
+# ------------------------------------------------------------
+# aggressively peaceful – what never goes into the repository
+# See PUBLISHING.md for the rules.
+# ------------------------------------------------------------
+
+# Personal data: names, emails, phone numbers
+inputs/contacts/
+outputs/requests/log.csv
+outputs/requests/**/*.eml
+outputs/requests/*/svar/
+outputs/requests/_old_drafts/
+
+# Original documents: we link to them, we don't redistribute them
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+*.msg
+*.png
+*.jpg
+*.jpeg
+*.heic
+inputs/press/copies/
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+
+# Private research notes (may contain names and unverified claims)
+inputs/notes/
