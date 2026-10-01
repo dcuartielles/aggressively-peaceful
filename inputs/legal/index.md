@@ -15,6 +15,9 @@ Laws, regulations, agreements and travel conditions relevant to the ban. Save PD
 | Lag (2010:1065) om kollektivtrafik | Regional public transport authority; trafikförsörjningsprogram | [Riksdagen](https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-20101065-om-kollektivtrafik_sfs-2010-1065/) |
 | Lag (2015:953) om kollektivtrafikresenärers rättigheter | Passenger rights in public transport | [Riksdagen](https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-2015953-om-kollektivtrafikresenarers_sfs-2015-953/) |
 | Förvaltningsprocesslagen (1971:291) | Court procedure; 28 § suspension (inhibition) | [Riksdagen](https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/forvaltningsprocesslag-1971291_sfs-1971-291/) |
+| Lag (2001:559) om vägtrafikdefinitioner, 2 § "Cykel" | Legal definition of a bike: (1) pedal or crank driven, not a toy; (2) pedal-assist e-bike, ≤ 250 W, no assist above 25 km/h; (3) electric vehicle for people with physical disabilities, ≤ 20 km/h; (4) other one-person electric vehicles ≤ 250 W or self-balancing (e.g. elsparkcykel, Segway). In force as amended up to SFS 2017:360. | [Riksdagen](https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-2001559-om-vagtrafikdefinitioner_sfs-2001-559/) |
+| Transportstyrelsen, "Cykel" | The authority's explanation of the definition, with examples (elcykel, elrullstol, el-skoter, elsparkcykel, Segway) and equipment rules | [Transportstyrelsen](https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/regler-for-olika-fordonsslag/cykel/) |
+| Transportstyrelsen, "Cykel med elassistans eller moped?" | When an e-bike stops being a bike | [Transportstyrelsen](https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/regler-for-olika-fordonsslag/moped/Elcykel/) |
 
 ## EU law
 

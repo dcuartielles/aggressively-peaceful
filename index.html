@@ -144,6 +144,13 @@ td .note{display:block;color:var(--muted);font-size:.88rem;margin-top:.15rem}
 .cols > div{display:grid;gap:.5rem;align-content:start;min-width:0}
 .cols ul{margin:0;padding-left:1.1rem;display:grid;gap:.3rem;color:var(--muted)}
 
+/* bike definition */
+.prose{display:grid;gap:1rem;max-width:var(--measure)}
+.defs{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(14rem,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:6px;overflow:hidden}
+.defs li{background:var(--surface);padding:.9rem 1rem;display:grid;gap:.3rem;align-content:start}
+.defs b{font-family:var(--display);font-size:1.15rem;font-weight:600;line-height:1.15}
+.defs span{font-size:.92rem;color:var(--muted)}
+
 footer{border-top:1px solid var(--line);padding-block:2rem 3rem;color:var(--muted);font-size:.9rem}
 footer .wrap{display:grid;gap:.4rem}
 @media (prefers-reduced-motion:no-preference){a{transition:color .15s}}
@@ -157,6 +164,7 @@ footer .wrap{display:grid;gap:.4rem}
     <nav class="nav" aria-label="Sections">
       <a href="#findings">Findings</a>
       <a href="#route">Timeline</a>
+      <a href="#bike">What is a bike</a>
       <a href="#documents">Documents</a>
       <a href="#requests">Requests</a>
       <a href="#press">Press</a>
@@ -218,6 +226,21 @@ footer .wrap{display:grid;gap:.4rem}
     <p class="hint">Scroll sideways to see the whole route.</p>
   </section>
 
+  <section id="bike" aria-labelledby="bike-h">
+    <h2 id="bike-h">What constitutes a bike in Sweden</h2>
+    <div class="prose">
+      <p>Swedish law defines a bike in the Road Traffic Definitions Act of 2001, <a href="https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-2001559-om-vagtrafikdefinitioner_sfs-2001-559/">lag (2001:559) om vägtrafikdefinitioner, 2 §</a>. The definition is wider than most people expect. A "cykel" is any vehicle driven by pedals or a crank that is not a toy. It is also a pedal-assist e-bike whose motor only adds to the rider's own effort, stops helping above 25 km/h and has a continuous rated power of at most 250 watts. Two kinds of electric vehicle without pedals count too: one-person vehicles for people with a physical disability built for at most 20 km/h, and other one-person electric vehicles of the same kind that have at most 250 watts or balance themselves.</p>
+      <p><a href="https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/regler-for-olika-fordonsslag/cykel/">Transportstyrelsen's guidance</a> gives examples for each point: e-bikes, electric wheelchairs and mobility scooters, electric kick scooters and Segways. An e-bike with a throttle or a stronger motor is no longer a bike but a moped. A child's kick scooter or tricycle usually counts as a toy. Nothing in the definition limits the number of wheels, the length or the number of riders, so cargo bikes and tandems are bikes as long as they meet these conditions.</p>
+      <p>This matters for the ban because the proposal the committee voted on never says what it means by "cykel". It only points to Skånetrafiken's travel conditions, under which children's bikes without a chain, folding bikes, folding kick scooters and micro bikes may still travel as hand luggage when folded. The statute is written for road traffic, and a transport authority may define the word differently in its travel conditions. The proposal does not do that, so it leaves open whether it covers, for example, a non-folding electric kick scooter or a cargo bike.</p>
+    </div>
+    <ol class="defs" aria-label="The four legal categories of cykel">
+      <li><b>1. Pedal bike</b><span>Driven by pedals or a crank, and not a toy.</span></li>
+      <li><b>2. E-bike</b><span>Motor only assists pedalling, no help above 25 km/h, at most 250 W.</span></li>
+      <li><b>3. Mobility vehicle</b><span>Electric, for people with a physical disability, one person, at most 20 km/h.</span></li>
+      <li><b>4. Light e-vehicle</b><span>Same as 3, at most 250 W or self-balancing: e.g. an electric kick scooter.</span></li>
+    </ol>
+  </section>
+
   <section id="documents" aria-labelledby="docs-h">
     <h2 id="docs-h">Documents</h2>
     <p class="lede">Official documents we have read, newest first. We link to the originals on the authorities' own sites and publish our transcriptions next to them.</p>
@@ -231,6 +254,8 @@ footer .wrap{display:grid;gap:.4rem}
           <tr><td class="date">2022-10-06</td><td><a href="https://www.skane.se/namndshandlingar/8191747/">Skånetrafiken slide deck: Cykel på tåg</a><span class="note">The only report-back on the 2022 assignment.</span></td><td class="case">2022-POL000362</td><td><a href="https://github.com/dcuartielles/aggressively-peaceful/blob/main/inputs/political_decisions/transcripts/2022_KTN_cykel-pa-tag_aterrapport.md">Transcript</a></td></tr>
           <tr><td class="date">2022-09-30</td><td><a href="https://www.skane.se/namndshandlingar/8277225/">Minutes §§ 52–63</a><span class="note">No bike item; deadline missed.</span></td><td class="case">—</td><td>—</td></tr>
           <tr><td class="date">2022-04-07</td><td><a href="https://www.skane.se/namndshandlingar/7312626/">Minutes § 27: Cykel på tåg</a><span class="note">Assignment to increase bike access.</span></td><td class="case">2022-POL000109</td><td><a href="https://github.com/dcuartielles/aggressively-peaceful/blob/main/inputs/political_decisions/transcripts/2022-04-07_KTN_cykel-pa-tag.md">Transcript</a></td></tr>
+          <tr><td class="date">2001</td><td><a href="https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-2001559-om-vagtrafikdefinitioner_sfs-2001-559/">Lag (2001:559) om vägtrafikdefinitioner, 2 § "Cykel"</a><span class="note">Legal definition of a bike. As amended up to SFS 2017:360.</span></td><td class="case">SFS 2001:559</td><td>—</td></tr>
+          <tr><td class="date">—</td><td><a href="https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/regler-for-olika-fordonsslag/cykel/">Transportstyrelsen: Cykel</a><span class="note">The authority's explanation of the definition, with examples.</span></td><td class="case">—</td><td>—</td></tr>
         </tbody>
       </table>
     </div>
