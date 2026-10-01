@@ -1,7 +1,7 @@
 ---
 recipient: Öresundståg AB
-sent: 
-status: ready
+sent: 2026-10-01
+status: sent
 subject: Begäran om allmänna handlingar – cyklar ombord på Öresundståg och Region Skånes beslut 2026-10-01
 ---
 
