@@ -17,10 +17,6 @@ The goal is to publish everything as a public website on GitHub Pages. Files are
 | `analysis/` | Legal and political assessment |
 | `timeline.md` | Dated chronology |
 
-## Names policy
-
-Only elected politicians acting in office are named in public files. Civil servants and private people (commuters, staff, protesters, op-ed authors) are described by role, e.g. `[handläggare]`, `[tågvärd]`, `[resenär]`. Full names stay in the private folders. See `PUBLISHING.md`.
-
 File naming for saved originals: `YYYY-MM-DD_source_short-title.ext`. Originals are never edited.
 
 ## Key facts so far
