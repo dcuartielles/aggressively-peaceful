@@ -1,7 +1,7 @@
 ---
 recipient: Region Skåne, registratur
 sent: 2026-10-01
-status: sent
+status: acknowledged
 subject: Begäran om allmänna handlingar – säkerhet, data och samråd kring förbud mot cyklar på tåg (ärende 2022-POL000109)
 ---
 

@@ -1,7 +1,7 @@
 ---
 recipient: Region Kronoberg
 sent: 2026-10-01
-status: sent
+status: answered 2026-10-02: no documents
 subject: Begäran om allmänna handlingar – Region Skånes beslut om förbud mot cyklar på Öresundståg
 ---
 

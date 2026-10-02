@@ -11,7 +11,9 @@ Sources: `inputs/press/index.md`, `inputs/political_decisions/index.md`.
 | 2022-09-30 | KTN meets; no bike item. Report deadline missed. | KTN minutes 2022-09-30 |
 | 2022-10-06 | Skånetrafiken 3-slide deck "Cykel på tåg": problems "perceived", no data; no competition with disabled passengers' places; floats rush-hour, station and summer limits | namndshandlingar 8191747 |
 | 2022-11-11 | New case 2022-POL000362 "Regelverk för medhavd cykel ombord": note the deck, review the rules, report Q1 2023 | KTN beslutsförslag |
-| 2023 Q1 | Report on the rules review due. **None found.** | — |
+| 2023-02-10 | KTN § 15, case 2022-POL000362: bike rules tightened (decision text being reviewed; per the 2024 report: cargo bikes removed, priority to passengers without bikes and to disabled passengers, customers responsible for their bikes) | Registry reply 2026-10-02 |
+| 2024-02-08 | Report-back "Regelverk för medhavd cykel ombord": new rules improved the situation significantly; bike-related customer complaints down 25 % on 2022; "no further measures deemed necessary"; hard stretches Malmö–Lund–Helsingborg and Ystad–Malmö in summer | [Beslutsförslag](https://www.skane.se/namndshandlingar/13466989/) |
+| 2024-03-08 | KTN § 21: report-back noted | Registry reply 2026-10-02 |
 | 2023-05 | Öresundståg cooperation agreement between six authorities (2023 version) | Region Halland |
 | 2023-06 | Skånetrafiken discourages bikes on Öresundståg in summer | News Øresund; press release |
 | 2024-04-23 | Skånetrafiken advises avoiding bikes weekdays 07–09 and 15–17 | Press release |
@@ -29,6 +31,7 @@ Sources: `inputs/press/index.md`, `inputs/political_decisions/index.md`.
 | 2026-10-01 | Cykelfrämjandet petition passes ~2,000 signatures | Cykelfrämjandet |
 | 2026-10-01 16:15 | Minutes not yet published | skane.se |
 | 2026-10-01 evening | 8 public-records requests sent: Region Skåne (2), Öresundståg AB, Region Halland, Blekinge, Kronoberg, Kalmar län, Västra Götalandsregionen | `outputs/requests/` |
+| 2026-10-02 | Region Skåne releases both case files (12 documents); minutes extract promised 5 Oct. Blekinge: "political initiative in Skåne", no documents. Kronoberg: nothing received, never up in Öresundståg owners’ council, board or management group. | `outputs/requests/*/svar_publik/` |
 | Posting of minutes + 3 weeks | Deadline for legality review (KL 13:5) | Kommunallagen |
 | 2026-11-01 | Ban takes effect | Beslutsförslag |
 | Q1 2027 | Administration reports back; proposal for summer 2027 | Beslutsförslag |
