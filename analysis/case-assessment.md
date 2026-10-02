@@ -21,6 +21,7 @@ A court is unlikely to stop the ban before 1 November, but there is a real case 
 - **Ban limited to Skåne stations**; not outside Skåne or in Denmark. Weakens the territorial argument.
 - **Unions not consulted**; operator "informed". Seko klubb Pågatåg reports 29 incidents in 2026, only 6 at rush hour.
 - **Case 2022-POL000109 was opened to increase bike access**; the September 2022 report is not referred to.
+- **The rush-hour ban was already on the table in 2023 as a fallback, and was set aside in 2024.** In February 2023 (§ 15, 2022-POL000362) the committee tightened the rules and listed a rush-hour ban as an escalation step if they failed. The February 2024 report-back (§ 21, 8 March 2024) found complaints down 25 %, said the problems could be handled within the existing rules, and reserved route- and time-specific bans for problems reaching a "justifiable" level. The 2026 proposal does not refer to this assessment, gives no data showing the threshold was reached, and goes further (all Skåne stations) than the targeted options named in 2024. This strengthens the "not lawfully made" (poor preparation) ground.
 
 ## Legal grounds (KL 13:8), strongest first
 
