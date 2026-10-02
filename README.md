@@ -19,7 +19,7 @@ The goal is to publish everything as a public website on GitHub Pages. Files are
 
 ## Names policy
 
-Only elected politicians acting in office are named in public files. Civil servants and private people (commuters, staff, protesters, op-ed authors) are described by role, e.g. `[handläggare]`, `[tågvärd]`, `[resenär]`. Full names stay in the private folders. See `PUBLISHING.md`.
+Only elected politicians acting in office are named in public files. Civil servants and private people (commuters, staff, protesters, op-ed authors) are described by role, e.g. `[handläggare]`, `[tågvärd]`, `[resenär]`. Full names stay in the private folders. The one exception is the author, credited under Authorship below. See `PUBLISHING.md`.
 
 File naming for saved originals: `YYYY-MM-DD_source_short-title.ext`. Originals are never edited.
 
@@ -33,11 +33,15 @@ File naming for saved originals: `YYYY-MM-DD_source_short-title.ext`. Originals 
 - **Staff union figures (Seko klubb Pågatåg):** 29 bike incidents in 2026, 6 at rush hour.
 - **Minutes for item 6 were to be approved immediately**, so the three-week appeal window may open within days.
 
+## Authorship
+
+This record is a human-machine collaboration between Dr. David J. Cuartielles Ruiz and Claude Opus 5.5 (Anthropic). David sets the direction, makes every decision and approves everything that is sent or published. Claude does research, drafting, transcription and analysis under his supervision. Sources are linked so every claim can be checked.
+
 ## License
 
 Our own material in this repository (analysis, timeline, indexes, summaries, request texts, redacted replies and site code) is published under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/). Full text in `LICENSE`.
 
-Attribution: "aggressively peaceful – an open record of the 2026 Skåne bike ban", with a link to this repository.
+Attribution: "aggressively peaceful – an open record of the 2026 Skåne bike ban, by David J. Cuartielles Ruiz with Claude Opus 5.5", with a link to this repository.
 
 Not covered by our license:
 
