@@ -31,8 +31,12 @@ Sources: `inputs/press/index.md`, `inputs/political_decisions/index.md`.
 | 2026-10-01 | Seko klubb Pågatåg: 29 incidents in 2026, 6 at rush hour | Skåne Plus |
 | 2026-10-01 | Cykelfrämjandet petition passes ~2,000 signatures | Cykelfrämjandet |
 | 2026-10-01 16:15 | Minutes not yet published | skane.se |
-| 2026-10-01 evening | 8 public-records requests sent: Region Skåne (2), Öresundståg AB, Region Halland, Blekinge, Kronoberg, Kalmar län, Västra Götalandsregionen | `outputs/requests/` |
+| 2026-10-01 evening | 7 public-records requests sent: Region Skåne (2), Öresundståg AB, Blekinge, Kronoberg, Kalmar län, Västra Götalandsregionen (Halland's draft lost its recipient) | `outputs/requests/` |
 | 2026-10-02 | Region Skåne releases both case files (12 documents); minutes extract promised 5 Oct. Blekinge: "political initiative in Skåne", no documents. Kronoberg: nothing received, never up in Öresundståg owners’ council, board or management group. | `outputs/requests/*/svar_publik/` |
+| 2026-10-02 evening | Request to Region Halland sent (the 1 October draft had lost its recipient) | `outputs/requests/` |
+| 2026-10-05 | Halland (via Hallandstrafiken): no documents; Region Skåne's decision **not received**. Region Skåne's promised minutes extract does not arrive. | `outputs/requests/04_region-halland/svar_publik/` |
+| 2026-10-05 | Cykelfrämjandet tells petition signers it will keep working to stop the ban being put into practice; launches the "Cyklistvelometern" survey | Campaign email to signers |
+| 2026-10-06 | Västra Götalandsregionen: no hits in its central registry; request passed on to Västtrafik | `outputs/requests/08_vastra-gotalandsregionen/svar_publik/` |
 | Posting of minutes + 3 weeks | Deadline for legality review (KL 13:5) | Kommunallagen |
 | 2026-11-01 | Ban takes effect | Beslutsförslag |
 | Q1 2027 | Administration reports back; proposal for summer 2027 | Beslutsförslag |
