@@ -17,8 +17,16 @@ Private tracking (addresses, dates, case numbers) is in `log.csv`. Public status
 | 2 | `02_region-skane_underlag` | Region Skåne registry | Now | Incident reports, data, correspondence: the material behind the "reports, videos and emails" claim |
 | 3 | `03_oresundstag-ab` | Öresundståg AB | Now | Whether Skåne informed the partners before deciding (clause 2.5.2) |
 | 4–8 | Partner regions | Each region's registry | Now | Whether they received anything before the decision. A "nothing before 1 October" reply is evidence. |
-| 9 | `09_region-skane_oresund` | Region Skåne registry | Now | Cross-border rules: Skånetrafiken told Skånes Folkblad (2026-10-06) it doesn't yet know how the ban works for trips to and from Denmark. Asks for implementation documents, staff instructions, correspondence with the Danish ministry and DSB, and the two agreements the proposal says are "not affected". |
-| 10 | `10_transportministeriet` | Danish Transportministeriet | Now | Danish records request (aktindsigt, offentlighedsloven § 7), in Danish: what the ministry was told and when, and the Öresund traffic agreement. |
+| 9 | `09_region-skane_oresund` | Region Skåne registry | Around 2026-10-26 | Implementation documents for cross-border trips, changes to the travel conditions and staff instructions. Sent late on purpose: a request only covers documents that exist when it arrives, and Skånetrafiken said the rules will be ready before 1 November. The agreements, the "påverkas inte" basis and the safety claim were added to request 02 on 2026-10-07 instead. |
+| 10 | `10_transportministeriet` | Danish Transportministeriet | Sent 2026-10-07 | Danish records request (aktindsigt, offentlighedsloven § 7), in Danish: what the ministry was told and when, and the Öresund traffic agreement. |
+
+## Reminders
+
+| Sent | Folder | What |
+| --- | --- | --- |
+| 2026-10-07 | `01_region-skane_brådskande` | Minutes extract promised for 2026-10-05 not received (`paminnelse_2026-10-07.md`) |
+| 2026-10-07 | `02_region-skane_underlag` | No reply since auto-reply; three points added (`paminnelse-och-tillagg_2026-10-07.md`) |
+| 2026-10-07 | `03_oresundstag-ab` | Only a customer-service auto-reply; asks for registration (`paminnelse_2026-10-07.md`) |
 
 ## Tips
 

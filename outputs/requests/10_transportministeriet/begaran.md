@@ -1,7 +1,7 @@
 ---
 recipient: Transportministeriet (Denmark)
-sent:
-status: draft
+sent: 2026-10-07
+status: sent
 subject: Anmodning om aktindsigt – Region Skånes forbud mod cykler i Øresundstogene i myldretiden
 ---
 

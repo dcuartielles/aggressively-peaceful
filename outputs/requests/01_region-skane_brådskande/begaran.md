@@ -1,7 +1,7 @@
 ---
 recipient: Region Skåne, registratur (kopia: nämndsekreterare kollektivtrafiknämnden)
 sent: 2026-10-01
-status: partly answered 2026-10-02 (points 2–7 released; minutes promised 2026-10-05)
+status: partly answered 2026-10-02 (points 2–7 released; minutes promised 2026-10-05); reminder sent 2026-10-07 (minutes extract)
 subject: Brådskande begäran om allmänna handlingar – ärende 2022-POL000109 (KTN 2026-10-01, punkt 6)
 ---
 
