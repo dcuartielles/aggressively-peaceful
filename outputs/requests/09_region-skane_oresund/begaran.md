@@ -20,6 +20,7 @@ Skånetrafiken uppgav i Skånes Folkblad den 6 oktober 2026 att det ännu inte �
 4. Korrespondens (e-post, brev, minnesanteckningar från möten) från och med den 1 juni 2026 mellan Region Skåne/Skånetrafiken och någon av följande om förbudet: danska Transportministeriet, DSB, Öresundståg AB, trafikföretaget som kör Öresundstågen, Øresundsbro Konsortiet.
 5. Det gällande avtalet mellan Region Skåne och danska Transportministeriet om trafiken över Öresundsbron och inom Danmark, och det gällande avtalet med DSB, som båda nämns under "Juridisk bedömning" i beslutsförslaget av den 24 september 2026, med bilagor som rör resevillkor eller medtagande av cykel.
 6. Handlingar som visar vilken bedömning som ligger bakom uppgiften i beslutsförslaget att dessa avtal "påverkas inte".
+7. Handlingar som ligger till grund för uppgiften i Skånetrafikens nyhetsbrev till kunder den 5 oktober 2026 att beslutet togs "med hänsyn till säkerheten ombord", till exempel riskbedömningar, säkerhetsanalyser och avvikelse- eller tillbudsrapporter om säkerhet kopplade till cyklar ombord. Jag begär också utkast till och underlag för nyhetsbrevets text om cykelförbudet och för motsvarande information på skanetrafiken.se.
 
 Om delar av begäran redan omfattas av min tidigare begäran om underlag till beslutet behöver de inte lämnas ut två gånger.
 
