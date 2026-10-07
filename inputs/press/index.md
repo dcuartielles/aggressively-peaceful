@@ -1,6 +1,6 @@
 # Press coverage
 
-Index of press and media about bikes on Skåne trains. As of 2026-10-01. Machine-readable version: `press.csv`.
+Index of press and media about bikes on Skåne trains. As of 2026-10-07. Machine-readable version: `press.csv`.
 
 Save copies of articles here as you get them (PDF or screenshot), named `YYYY-MM-DD_outlet_short-title.pdf`. Most Gota Media titles (Sydsvenskan, HD, Kristianstadsbladet, Norra Skåne, Ystads Allehanda, Skånska Dagbladet) are paywalled; Sydsvenskan and HD can be read via their pressen.se mirrors.
 
@@ -10,6 +10,7 @@ Quotes marked † were reconstructed from summaries and must be checked against 
 
 | Date | Outlet | Headline | Type | Summary | Quote |
 | --- | --- | --- | --- | --- | --- |
+| 2026-10-06 | [Skånes Folkblad](https://skanesfolkblad.se/skanetrafiken-osakra-om-cykelforbudet-over-sundet-hem-kommer-man-ju-alltid/) | Skånetrafiken osäkra om cykelförbudet över sundet: "Hem kommer man ju alltid" | News | Five days after the decision, Skånetrafiken cannot say how the ban works for cross-border trips: arriving from Denmark during ban hours and continuing in Skåne, or Danes boarding in Skåne to go home at rush hour. Promised to come back; "convinced" rules will be ready by 1 Nov. Only rule stated: board in another Swedish region before 15:30 and you may stay on in Skåne | "Jag får be att få återkomma till dig på den exakta frågan" – [Skånetrafiken, role to check] † |
 | 2026-10-01 | [SVT Skåne](https://www.svt.se/nyheter/lokalt/skane/beslut-idag-cyklar-stoppas-pa-skanska-tag-under-rusningstid) | Beslut idag: Cyklar stoppas på skånska tåg under rusningstid | TV/web | Ban adopted for weekdays 06–08 and 15:30–17:30 from 1 Nov; MP opposed | "beslutet är ett slag i magen på de resenärer som försöker stötta ett hållbart Skåne" – Christian Lie (MP) |
 | 2026-10-01 | [Sydsvenskan via Pressen](https://www.pressen.se/1366717494.html) | Pendlare rasar mot cykelförbud på tåg: Påverkar jobb, familj och ekonomi | News (paywall) | Commuters angry; point to Danish bike carriages | "Det är frustrerande för mig att jag får neka folk" – [tågvärd] |
 | 2026-10-01 | [Sydsvenskan via Pressen](https://www.pressen.se/1366717492.html) | Idag tas beslut: Ska cyklar stoppas på tågen under rusningstid? | News (paywall) | Preview of the decision | |
@@ -71,8 +72,9 @@ Quotes marked † were reconstructed from summaries and must be checked against 
 
 - Sveriges Radio P4 Malmöhus and P4 Kristianstad
 - Kvällsposten/Expressen, Trelleborgs Allehanda, Landskrona Direkt
-- Danish media: DR, Politiken, TV 2 Lorry, Ingeniøren
+- Danish media: DR, Politiken, TV 2 Lorry, Ingeniøren (none found yet on the cross-border question raised by Skånes Folkblad on 2026-10-06)
 - Press releases from parties other than MP
 - Full text of the HD article of 2026-09-25
+- Full text of the Skånes Folkblad article of 2026-10-06 (only read via search excerpt; check the speaker's role and the quote)
 - Cykelfrämjandet petition page
 - Seko klubb Pågatåg's source for the 29-incident figure
