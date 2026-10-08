@@ -6,7 +6,8 @@ Region and municipal decisions, minutes, decision papers and government communic
 
 | Date | Document | Case | Link | Saved | Notes |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-01 | Minutes, item 6 "Förbud mot cyklar på tåg under högtrafik" | 2022-POL000109 | Not yet published | | Monitoring the [meeting page](https://www.skane.se/politik-och-demokrati/politik/politiska-organ/sammantraden/?sid=86285317) |
+| 2026-10-01 | Minutes §§ 48–55; § 53 = item 6 "Förbud mot cyklar på tåg under högtrafik" | 2022-POL000109 | [97151310](https://www.skane.se/namndshandlingar/97151310/) | `transcripts/2026-10-01_KTN_protokoll_punkt-6.md`, `transcripts/2026-10-01_KTN_protokoll_ovriga.md` | Posted on the noticeboard **2026-10-08**; appeal deadline (KL 13:5) **2026-10-29**. Återremiss rejected 7–6. Hours corrected to 06–08 and 15:30–17:30. Quarterly reports in 2027 (S amendment, 11–2) and a Q4 2027 evaluation. MP reservation, C verbal reservation, S verbal reservation against rejecting the återremiss, V protokollsanteckning. Only listed document: "Beslutsförslag 2026-09-08". |
+| 2026-09-15 | Beredningsutskott minutes §§ 16–18 | | [97052091](https://www.skane.se/namndshandlingar/97052091/) | | § 17 c lists "Förbud mot cyklar på tåg under högtrafik" as prepared for the nämnd. No text, reasoning or decision. Digital meeting; six members, ten Skånetrafiken officials. |
 | 2026-10-01 | Agenda (dagordning) | | [96991594](https://www.skane.se/namndshandlingar/96991594/) | `2026-10-01_KTN_dagordning.pdf` | |
 | 2026-09-24 | Beslutsförslag: Förbud mot cyklar på tåg under högtrafik | 2022-POL000109 | [96656721](https://www.skane.se/namndshandlingar/96656721/) | `2026-09-24_KTN_beslutsforslag_punkt-6.pdf`, transcript | The only document in the case file |
 | 2025-05-08 | KTN delegationsordning | | [PDF](https://www.skane.se/siteassets/organisation_politik/politik/delegationsordning/kollektivtrafiknamnden-delegationsordning-beslutad-250508.pdf) | | |
@@ -42,4 +43,4 @@ Region and municipal decisions, minutes, decision papers and government communic
 
 ## Monitoring
 
-The KTN meeting page for 2026-10-01 is checked regularly for the published minutes. When they appear, the item 6 extract goes here with a transcript.
+The 2026-10-01 minutes were published on 2026-10-08 (signed 4 and 8 October, posted on the noticeboard 8 October). Monitoring ended.

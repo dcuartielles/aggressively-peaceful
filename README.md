@@ -31,7 +31,7 @@ File naming for saved originals: `YYYY-MM-DD_source_short-title.ext`. Originals 
 - **The only document in the 2026 case file** is the chair's proposal dated 24 September 2026. No data, no legal review, no consultation with unions or partner regions before the decision.
 - **Partner regions (replies 2–6 October 2026):** Blekinge, Kronoberg and Halland hold no documents about the ban. Neither Kronoberg (2 October) nor Halland (5 October) had received Region Skåne's decision, and the ban was never up for decision in the Öresundståg owners’ council, board or management group. Västra Götalandsregionen found nothing in its central registry and passed the request on to Västtrafik. Kalmar län has not answered yet.
 - **Staff union figures (Seko klubb Pågatåg):** 29 bike incidents in 2026, 6 at rush hour.
-- **Minutes for item 6 were to be approved immediately**, so the three-week appeal window may open within days.
+- **Minutes (§ 53)** were declared approved immediately, but were signed on 4 and 8 October and posted on the noticeboard on **8 October 2026**. **Appeal deadline (laglighetsprövning, KL 13:5): 29 October 2026.** Sending the case back for more data was rejected 7–6. The only supporting document listed is a proposal dated 8 September.
 
 ## Authorship
 
