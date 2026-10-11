@@ -45,6 +45,7 @@ Sources: `inputs/press/index.md`, `inputs/political_decisions/index.md`.
 | 2026-10-07 | Reminders to Region Skåne (minutes; data request, extended with the Danish agreements and the basis for the "safety" claim) and Öresundståg AB. Access request sent to the Danish Transport Ministry. Västtrafik confirms receipt of the forwarded VGR request. Öresundståg AB forwards our request to Skånetrafiken's registry. | `outputs/requests/` |
 | 2026-10-08 | Justeringsperson signs (07:21). Minutes published and posted on Region Skåne's noticeboard. | skane.se anslagstavla |
 | 2026-10-08 | Region Skåne releases the approved minutes and Skånetrafiken's presentation "Cyklar ombord" (22 slides), shown at the meeting but not in the case file. Slide 21: "risk för att en del kunder väljer bilen istället". Skånetrafiken still searching its own registry. Danish ministry registers our request (case 2026-4873). | `outputs/requests/01_region-skane_brådskande/svar_publik/` |
+| 2026-10-09 | Västtrafik (via Västra Götalandsregionen): no documents; "Det står att det ska förmedlas till oss men det har inte skett" – the decision has still not been passed on to it | `outputs/requests/08_vastra-gotalandsregionen/svar_publik/` |
 | 2026-10-29 | Deadline for legality review (KL 13:5): three weeks from the 8 October posting | Kommunallagen |
 | 2026-11-01 | Ban takes effect | Beslutsförslag |
 | 2027, each quarter | Administration reports to KTN on how the ban has worked; in Q1 also a proposal for summer 2027 | KTN minutes § 53 (S amendment) |

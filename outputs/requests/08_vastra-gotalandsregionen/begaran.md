@@ -1,7 +1,7 @@
 ---
 recipient: Västra Götalandsregionen
 sent: 2026-10-01
-status: sent
+status: answered 2026-10-09: no documents; Västtrafik has not received the decision
 subject: Begäran om allmänna handlingar – Region Skånes beslut om förbud mot cyklar på Öresundståg
 ---
 
