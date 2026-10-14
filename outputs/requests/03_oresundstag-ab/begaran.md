@@ -1,7 +1,7 @@
 ---
 recipient: Öresundståg AB
 sent: 2026-10-01
-status: forwarded 2026-10-07 by Öresundståg AB to Skånetrafiken's registry
+status: answered 2026-10-14: no documents of its own; only the decision, received after it was taken
 subject: Begäran om allmänna handlingar – cyklar ombord på Öresundståg och Region Skånes beslut 2026-10-01
 ---
 

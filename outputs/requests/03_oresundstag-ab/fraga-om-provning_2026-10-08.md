@@ -1,8 +1,8 @@
 ---
 recipient: Öresundståg AB
 type: follow-up (reply in the original thread)
-sent:
-status: draft
+sent: 2026-10-08
+status: sent
 ---
 
 Hej,
