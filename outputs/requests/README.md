@@ -19,6 +19,7 @@ Private tracking (addresses, dates, case numbers) is in `log.csv`. Public status
 | 4–8 | Partner regions | Each region's registry | Now | Whether they received anything before the decision. A "nothing before 1 October" reply is evidence. |
 | 9 | `09_region-skane_oresund` | Region Skåne registry | Around 2026-10-26 | Implementation documents for cross-border trips, changes to the travel conditions and staff instructions. Sent late on purpose: a request only covers documents that exist when it arrives, and Skånetrafiken said the rules will be ready before 1 November. The agreements, the "påverkas inte" basis and the safety claim were added to request 02 on 2026-10-07 instead. |
 | 10 | `10_transportministeriet` | Danish Transportministeriet | Sent 2026-10-07 | Danish records request (aktindsigt, offentlighedsloven § 7), in Danish: what the ministry was told and when, and the Öresund traffic agreement. |
+| 11 | `11_region-skane_beredning` | Region Skåne registry, cc committee secretary | Now (urgent) | How the decision was prepared: the meeting notice and its attachments, the preparatory committee, the 8 Sep version of the proposal, when members got the presentation, when the § 53 extract was sent to partners, the case log. |
 
 ## Reminders
 
