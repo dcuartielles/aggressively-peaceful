@@ -1,7 +1,7 @@
 ---
 recipient: Transportministeriet (Denmark)
 sent: 2026-10-07
-status: acknowledged 2026-10-08 (case no. 2026-4873)
+status: deadline extended 2026-10-16; answer expected by 2026-11-13 (case no. 2026-4873)
 subject: Anmodning om aktindsigt – Region Skånes forbud mod cykler i Øresundstogene i myldretiden
 ---
 
