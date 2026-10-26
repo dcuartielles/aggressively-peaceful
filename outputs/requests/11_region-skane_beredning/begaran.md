@@ -1,7 +1,7 @@
 ---
 recipient: Region Skåne, registratur (cc nämndsekreterare)
 sent:
-status: prepared 2026-10-17
+status: prepared 2026-10-17; revised 2026-10-18 after Marija's appeal draft
 subject: Brådskande begäran om allmänna handlingar – kallelse och beredning i ärende 2022-POL000109 (KTN 2026-10-01 § 53)
 ---
 
@@ -13,15 +13,17 @@ Begäran är tidskritisk eftersom tiden för laglighetsprövning löper ut 2026-
 
 1. Kallelsen till kollektivtrafiknämndens sammanträde 2026-10-01 med samtliga bilagor och beslutsunderlag, i den form den skickades till ledamöter och ersättare, samt handling som visar när den skickades (till exempel utskicksmeddelandet eller en logg i ledamotsportalen).
 
-2. Dagordningar, kallelser, protokoll och minnesanteckningar från kollektivtrafiknämndens beredningsutskott från och med 2026-06-01 till och med 2026-10-01 där ärende 2022-POL000109, eller frågan om cyklar ombord på tåg, har behandlats. Om ärendet inte har beretts i beredningsutskottet ber jag om eventuella handlingar som visar varför.
+2. Kallelsen till kollektivtrafiknämndens beredningsutskotts sammanträde 2026-09-15 med samtliga bilagor och beslutsunderlag i ärende 2022-POL000109, i den form den skickades till utskottets ledamöter, samt protokoll eller minnesanteckningar från sammanträdet i den delen. Detsamma gäller om ärendet behandlades i beredningsutskottet vid något annat tillfälle från och med 2026-06-01.
 
-3. Beslutsförslaget daterat 2026-09-08, som anges under "I ärendet finns följande dokument" i protokollet § 53, samt handling som visar till vilka det skickades och när.
+3. Beslutsförslaget daterat 2026-09-08, som anges under "I ärendet finns följande dokument" i protokollet § 53, samt handling som visar till vilka det skickades och när, och vilken version av beslutsförslaget som behandlades i beredningsutskottet 2026-09-15.
 
 4. Handling som visar när och hur presentationen "Cyklar ombord", som visades på sammanträdet 2026-10-01, gjordes tillgänglig för nämndens ledamöter och ersättare, samt uppgift om när presentationen registrerades och under vilket diarienummer. Själva presentationen har jag redan fått (2026-10-08).
 
 5. Handling som visar när och hur protokollsutdraget § 53 expedierades till Region Västra Götaland, Region Halland, Region Kronoberg, Region Kalmar, Region Blekinge och Öresundståg AB, till exempel utskicksmeddelandet med datum.
 
 6. Ett utdrag ur diariet (diarieblad eller händelselogg) för ärende 2022-POL000109 som visar samtliga registrerade handlingar och händelser från och med 2026-01-01, med datum.
+
+7. Det underlag som diagrammen i presentationen "Cyklar ombord" bygger på: beläggning per avgång och linjeriktning, vilken period uppgifterna avser och hur de har mätts, samt motsvarande beläggningsuppgifter för Öresundstågen och de Pågatågslinjer som inte redovisas i presentationen. Om uppgifterna redan omfattas av min begäran från 2026-10-01 om underlag till beslutet räcker det att de lämnas ut där.
 
 Om någon handling, eller del av handling, inte lämnas ut ber jag om ett skriftligt, överklagbart beslut med uppgift om tillämplig sekretessbestämmelse. Om någon begärd handling inte finns ber jag om besked om det. Om avgift tas ut ber jag om besked i förväg om den överstiger 500 kronor.
 

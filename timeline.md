@@ -48,7 +48,11 @@ Sources: `inputs/press/index.md`, `inputs/political_decisions/index.md`.
 | 2026-10-09 | Västtrafik (via Västra Götalandsregionen): no documents; "Det står att det ska förmedlas till oss men det har inte skett" – the decision has still not been passed on to it | `outputs/requests/08_vastra-gotalandsregionen/svar_publik/` |
 | 2026-10-14 | Öresundståg AB: no minutes, decisions, decision papers or incident reports of its own on the ban; only the KTN § 53 extract, received after the decision (distribution list: all five partner regions and Öresundståg AB; undated) | `outputs/requests/03_oresundstag-ab/svar_publik/` |
 | 2026-10-16 | Danish Transport Ministry extends its deadline (offentlighedsloven § 36(2)), citing earlier requests in its queue; answer expected by 13 Nov 2026 | `outputs/requests/10_transportministeriet/svar_publik/` |
+| 2026-10-22 | Skånetrafiken's registry apologises for the delay on request 02 (heavy workload), promises documents in batches; an internal forward shows Region Skåne's registry may not have passed the 1 Oct request on before 7 Oct | `outputs/requests/02_region-skane_underlag/svar_publik/` |
+| 2026-10-22 | Cykelfrämjandet announces it will appeal the decision with a lawyer | Kristianstadsbladet/Sydsvenskan (via pressen.se) |
+| 2026-10-23 | KTN chair Carina Zachau (M) announces the ban will not be introduced on 1 Nov; Skånetrafiken to study a more targeted ban in November; could return next year. She says it hit some customers "på ett oproportionerligt sätt". Formal decision not yet seen | Skånes Folkblad, Kristianstadsbladet, Cykelfrämjandet (23 Oct) |
+| 2026-10-23 | Kalmar länstrafik (request 07) asks whether we still want the documents now that the ban is withdrawn | `outputs/requests/07_region-kalmar/svar_publik/` |
 | 2026-10-29 | Deadline for legality review (KL 13:5): three weeks from the 8 October posting | Kommunallagen |
-| 2026-11-01 | Ban takes effect | Beslutsförslag |
+| 2026-11-01 | Planned start of the ban; not introduced, per the chair (23 Oct) | Beslutsförslag; Skånes Folkblad 23 Oct |
 | 2027, each quarter | Administration reports to KTN on how the ban has worked; in Q1 also a proposal for summer 2027 | KTN minutes § 53 (S amendment) |
 | Q4 2027 | In-depth evaluation of the ban, with a recommendation on its future | KTN minutes § 53 (S tillägg) |

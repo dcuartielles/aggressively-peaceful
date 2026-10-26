@@ -1,7 +1,7 @@
 ---
 recipient: Region Skåne
 sent:
-status: planned – send around 2026-10-26, so that implementation documents written before 1 November are covered
+status: on hold (ban not introduced 1 Nov, per the chair 2026-10-23)
 subject: Begäran om allmänna handlingar – cykelförbudet på Öresundståg vid resor till och från Danmark (2022-POL000109)
 ---
 
