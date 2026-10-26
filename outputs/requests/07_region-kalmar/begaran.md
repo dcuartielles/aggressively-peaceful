@@ -1,7 +1,7 @@
 ---
 recipient: Region Kalmar län
 sent: 2026-10-01
-status: 2026-10-23 asked whether we still want the documents (ban withdrawn by Skåne); no answer on documents yet
+status: we replied yes 2026-10-26; Kalmar länstrafik will come back with the documents
 subject: Begäran om allmänna handlingar – Region Skånes beslut om förbud mot cyklar på Öresundståg
 ---
 
