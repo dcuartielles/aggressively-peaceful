@@ -56,6 +56,7 @@ Sources: `inputs/press/index.md`, `inputs/political_decisions/index.md`.
 | 2026-10-26 | Region Skåne's committee secretary sends the chair's decision of 23 Oct (2022-POL000109-004): § 53 revoked in full under the urgency rule (delegation point 1.1), next meeting 6 Nov; "Att någon form av cykelförbud behöver införas står klart"; ban "riskerar att drabba vissa kunder på ett oproportionerligt sätt" | `outputs/requests/11_region-skane_beredning/svar_publik/` |
 | 2026-10-26 | Kalmar länstrafik: will come back with the documents (request 07) | `outputs/requests/log.csv` |
 | 2026-10-26 | Region Kalmar län (request 07): holds only the § 53 extract, received 2026-10-08, and the revocation, received 2026-10-23; nothing else | `outputs/requests/07_region-kalmar/svar_publik/` |
+| 2026-10-27 | Region Skåne registry answers request 11: notice held only agenda + 24 Sep proposal; BU 15 Sep saw an 8 Sep draft without comparisons, hour reasoning or follow-up; minutes misdated (should be 24 Sep); § 53 dispatched to partners 8 Oct 09:18; no case log; no chart data ("Finns i beslutet") | `outputs/requests/11_region-skane_beredning/svar_publik/` |
 | 2026-10-29 | Deadline for legality review of § 53 (KL 13:5); no longer relevant after the revocation of 23 Oct | Kommunallagen |
 | 2026-11-01 | Planned start of the ban; § 53 revoked 23 Oct | Beslutsförslag; Skånes Folkblad 23 Oct |
 | 2026-11-06 | KTN meeting: the chair's urgent decision of 23 Oct is to be reported | Delegationsbeslut 2026-10-23 |

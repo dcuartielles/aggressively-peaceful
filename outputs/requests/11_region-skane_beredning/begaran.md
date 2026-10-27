@@ -1,7 +1,7 @@
 ---
 recipient: Region Skåne, registratur (cc nämndsekreterare)
 sent: 2026-10-26
-status: point 8 answered 2026-10-26 (§ 53 revoked by the chair 2026-10-23); points 1–7 waiting
+status: answered 2026-10-26 (point 8) and 2026-10-27 (points 1–7; case log unclear, no chart data)
 subject: Brådskande begäran om allmänna handlingar – kallelse och beredning i ärende 2022-POL000109 (KTN 2026-10-01 § 53)
 ---
 
