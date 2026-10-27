@@ -1,7 +1,7 @@
 ---
 recipient: Region Halland
-sent: 
-status: ready (not yet sent)
+sent: 2026-10-02
+status: answered 2026-10-05: no documents
 subject: Begäran om allmänna handlingar – Region Skånes beslut om förbud mot cyklar på Öresundståg
 ---
 
