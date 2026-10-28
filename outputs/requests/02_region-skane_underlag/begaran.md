@@ -1,7 +1,7 @@
 ---
 recipient: Region Skåne, registratur
 sent: 2026-10-01
-status: acknowledged; reminder and points 12–14 sent 2026-10-07
+status: acknowledged; reminders sent 2026-10-07 and 2026-10-28; Skånetrafiken 2026-10-22: in progress, no documents yet
 subject: Begäran om allmänna handlingar – säkerhet, data och samråd kring förbud mot cyklar på tåg (ärende 2022-POL000109)
 ---
 
